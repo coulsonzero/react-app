@@ -76,3 +76,73 @@ npm run deploy
 ```
 
 [https://coulsonzero.github.io/react-app](https://coulsonzero.github.io/react-app)
+
+
+## Code
+
+1. src目录下新建`components`组件
+   
+  * components目录下新建`Navbar.jsx`等
+  * components下`index.js`导入其它`jsx`文件
+  
+```jsx
+export { default as Navbar } from './Navbar';
+export { default as About } from './About';
+export { default as Contact } from './Contact';
+export { default as Skill } from './Skill';
+export { default as Community } from './Community';
+export { default as Footer } from './Footer';
+
+```  
+
+1. `App.js`导入components中index.js的各种jsx
+  
+```jsx
+import React from 'react';
+
+import './App.css';
+import { Navbar, Header, About, Contact, Skill, Community } from "./components";
+
+
+const App = () => {
+  return (
+    <div className="App">
+      <Navbar />
+      <main className="main">
+        {/* <Header /> */}
+        {/* <About /> */}
+        {/* <Contact /> */}
+        {/* <skill /> */}
+        {/* <Community /> */}
+      </main>
+      {/* <Footer /> */}
+    </div>
+  );
+}
+
+export default App;
+```
+
+
+### `rafce`
+```
+import React from 'react'
+
+const Home = () => {
+  return (
+    <div>Home</div>
+  )
+}
+export default Home
+```
+
+### class -> className
+
+### <img />
+
+### import assets
+```jsx
+import logo from '../imgs/navbar/Z-logo.png';
+...
+<img src={logo} alt="Z" className="nav_logo" />
+```
