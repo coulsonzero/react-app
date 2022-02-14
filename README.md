@@ -24,14 +24,20 @@ open [http://localhost:3000](http://localhost:3000) in the browser.
 
 ### 1.3 项目部署
 
-* local部署
+#### local部署
   
 1. `npm run build`
 2. `npm install -g serve`
 3. `serve -s build`
 4. `http://localhost:3000`
 
-* 服务器部署
+#### 服务器部署1
+```json
+"homepage": "./",
+  "scripts": {
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
+```
   
 1. `npm run build`
 2. 
@@ -46,5 +52,20 @@ git push origin master
 > 上述命令将master分支下某个文件（如：build）复制一份到 gh-pages 这个新分支下。
 > 不过代码每次迭代之后，都需要手动在部署一下，才能达到线上线下一致。
 4. 设置`Setting`-`pages`-`Source`-`Branch: pg-pages` 即可
+
+
+#### 服务器部署2
+```json
+"homepage": "https://coulsonzero.github.io/react-app",
+  "scripts": {
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build"
+```
+  
+```
+git push
+npm install gh-pages --save-dev
+npm run deploy
+```
 
 [https://coulsonzero.github.io/react-app](https://coulsonzero.github.io/react-app)
