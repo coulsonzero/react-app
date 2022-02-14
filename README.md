@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Get Started
 
 ## Available Scripts
 
@@ -20,12 +18,23 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
-
+local部署
 1. `npm run build`
 2. `npm install -g serve`
 3. `serve -s build`
 4. `http://localhost:3000`
-   
+
+服务器部署
+1. `npm run build`
+2. 
+```sh
+git add .
+git commit -m "update gh-pages"
+git push origin master
+```
+3. `git subtree push --prefix=build origin gh-pages`
+> 上述命令将master分支下某个文件（如：build）复制一份到 gh-pages 这个新分支下。
+> 不过代码每次迭代之后，都需要手动在部署一下，才能达到线上线下一致。
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
