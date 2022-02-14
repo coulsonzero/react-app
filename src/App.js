@@ -1,15 +1,22 @@
-import logo from './imgs/logo.svg';
+import React from 'react';
 import './App.css';
+import { Navbar } from "./components";
+
+// import { Navbar, Header, About, Contact, Skill, Community } from "./components";
+
 
 const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
+      <Navbar />
+      <main className="main">
+        {/* <Header /> */}
+        {/* <About /> */}
+        {/* <Contact /> */}
+        {/* <skill /> */}
+        {/* <Community /> */}
+      </main>
+      {/* <Footer /> */}
     </div>
   );
 }

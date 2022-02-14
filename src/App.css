@@ -1,52 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* ============ Config =========== */
+@import "./css/config/variables.css";
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* ================ Base ============== */
+@import "./css/base/base.css";
+@import "./css/base/selection.css";
+@import "./css/base/scroolbar.css";
+@import "./css/base/section.css";
 
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* ============ Components =========== */
+@import "./css/components/header.css";
+@import "./css/components/home.css";
+@import "./css/components/about.css";
+@import "./css/components/contact.css";
+@import "./css/components/community.css";
+@import "./css/components/footer.css";
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* ============ Container =========== */
+@import "./css/container/swiper-button.css";
+@import "./css/container/swiper-pagination.css";
+@import "./css/container/social.css";
+@import "./css/container/mac-container.css";
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* ============ Theme =========== */
+@import "./css/theme/darkTheme.css";
+/* ============ Layout =========== */
+@import "./css/layout/layout.css";
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
