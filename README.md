@@ -31,7 +31,7 @@ open [http://localhost:3000](http://localhost:3000) in the browser.
 3. `serve -s build`
 4. `http://localhost:3000`
 
-#### 服务器部署1
+#### 服务器部署(ok)
 ```json
 "homepage": "./",
   "scripts": {
@@ -54,7 +54,7 @@ git push origin master
 4. 设置`Setting`-`pages`-`Source`-`Branch: pg-pages` 即可
 
 
-#### 服务器部署2
+#### 服务器部署(X)
 ```json
 "homepage": "https://coulsonzero.github.io/react-app",
   "scripts": {
