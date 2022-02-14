@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import './js/main';
-import './js/getLinks';
+// import './js/main';
+// import './js/getLinks';
 import { Navbar, Home, About, Contact, Community, Footer } from "./components";
 
 // import { Navbar, Header, About, Contact, Skill, Community } from "./components";
@@ -21,6 +21,7 @@ const App = () => {
       </main>
       <Footer />
     </div>
+
   );
 }
 
