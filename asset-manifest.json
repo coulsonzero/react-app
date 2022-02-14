@@ -1,14 +1,26 @@
 {
   "files": {
-    "main.css": "./static/css/main.073c9b0a.css",
-    "main.js": "./static/js/main.444e8d8b.js",
-    "static/media/logo.svg": "./static/media/logo.489fff331062edd8fa43c8c15eee832e.svg",
+    "main.css": "./static/css/main.29f45bc8.css",
+    "main.js": "./static/js/main.9e18229b.js",
+    "static/media/dark-homepage.png": "./static/media/dark-homepage.57ba3d728f4c24a0884b.png",
+    "static/media/1.jpg": "./static/media/1.c81a226dbc3d06b7e618.jpg",
+    "static/media/4.jpg": "./static/media/4.854f563dff572da1f34d.jpg",
+    "static/media/7.jpg": "./static/media/7.9bd899a4104d55042037.jpg",
+    "static/media/6.jpg": "./static/media/6.b9d37c95e463245b4ea5.jpg",
+    "static/media/3.jpg": "./static/media/3.34fddfaf188adbe890ab.jpg",
+    "static/media/macbookpro13.png": "./static/media/macbookpro13.ef443f053c0c2f5e7f34.png",
+    "static/media/2.jpg": "./static/media/2.510d00181ad32acc526d.jpg",
+    "static/media/Z-logo.png": "./static/media/Z-logo.7c258f4bb935ba881d59.png",
+    "static/media/5.jpg": "./static/media/5.f05a5e2c05a31d19fcd6.jpg",
+    "static/media/awwwards.png": "./static/media/awwwards.df2474b018dfbfba947c.png",
+    "static/media/github.svg": "./static/media/github.9dfd94f8b0793555a14f41689d823c98.svg",
+    "static/media/codepen.svg": "./static/media/codepen.6c8dc2ea4a4d213967d6105437583f5e.svg",
     "index.html": "./index.html",
-    "main.073c9b0a.css.map": "./static/css/main.073c9b0a.css.map",
-    "main.444e8d8b.js.map": "./static/js/main.444e8d8b.js.map"
+    "main.29f45bc8.css.map": "./static/css/main.29f45bc8.css.map",
+    "main.9e18229b.js.map": "./static/js/main.9e18229b.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.444e8d8b.js"
+    "static/css/main.29f45bc8.css",
+    "static/js/main.9e18229b.js"
   ]
 }
