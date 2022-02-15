@@ -59,8 +59,8 @@ const Home = () => {
 			{/* <!-- ===== icons ====== --> */}
 			<ul className="social">
 				<li className="social-item">
-					<a href="https://github.com/coulsonzero/" target="_black">
-						<img src={github} />
+					<a href="https://github.com/coulsonzero/" target="_black" rel="noreferrer">
+						<img src={github} alt="github"/>
 					</a>
 					<div className="box-tooltip" data-name="github">
 						<div className="tooltip-text" data-color="github">
@@ -69,7 +69,7 @@ const Home = () => {
 					</div>
 				</li>
 				<li className="social-item">
-					<a href="https://codepen.io/coulsonzero" target="_black">
+					<a href="https://codepen.io/coulsonzero" target="_black" rel="noreferrer">
 						<img src={codepen} alt="codepen" />
 					</a>
 					<div className="box-tooltip" data-name="codepen">
@@ -84,7 +84,7 @@ const Home = () => {
 			</ul>
 			{/* <!-- === Awwwards === --> */}
 			<div id="awwwards" className="awwwards">
-				<a href="http://www.awwwards.com" target="_blank">
+				<a href="http://www.awwwards.com" target="_blank" rel="noreferrer">
 					<img src={awwwards} alt="awwwards" />
 				</a>
 			</div>

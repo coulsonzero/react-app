@@ -1,4 +1,8 @@
-/* ============ Config =========== */
+@import url("https://fonts.googleapis.com/css?family=Poppins|Cinzel+Decorative|Bellefair|Cagliostro|Parisienne:wght@300;400;500;600;700&display=swap");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.1/css/boxicons.min.css');
+
+
+/* ============ Config ========= */
 @import "./css/config/variables.css";
 
 /* ================ Base ============== */
@@ -6,7 +10,6 @@
 @import "./css/base/selection.css";
 @import "./css/base/scroolbar.css";
 @import "./css/base/section.css";
-
 
 /* ============ Components =========== */
 @import "./css/components/header.css";

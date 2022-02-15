@@ -119,7 +119,7 @@ document
 var i = 0;
 let imgBtn = document.querySelectorAll(".img-btn");
 
-function next() {
+export function next() {
 	document.querySelector(".img-btn.active").classList.remove("active");
 	i++;
 	if (i >= imgsBox.length) i = 0;
@@ -127,7 +127,7 @@ function next() {
 	document.querySelector(".img-slider").src = imgsBox[i];
 }
 
-function prev() {
+export function prev() {
 	document.querySelector(".img-btn.active").classList.remove("active");
 	i--;
 	if (i < 0) i = imgsBox.length - 1;

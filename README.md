@@ -173,3 +173,5 @@ npm install boxicon --save
 @import url('https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.1/css/boxicons.min.css');
 ```
 
+### 获取json报错
+> Uncaught SyntaxError: Unexpected token < in JSON at position 0
