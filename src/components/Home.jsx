@@ -7,8 +7,8 @@ import img4 from "../imgs/homeBg/4.jpg";
 import img5 from "../imgs/homeBg/5.jpg";
 import img6 from "../imgs/homeBg/6.jpg";
 import img7 from "../imgs/homeBg/7.jpg";
-import github from "../imgs/home/github.svg";
-import codepen from "../imgs/home/codepen.svg";
+import github   from "../imgs/home/github.svg";
+import codepen  from "../imgs/home/codepen.svg";
 import awwwards from "../imgs/home/awwwards.png";
 
 const Home = () => {
