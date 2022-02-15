@@ -17,7 +17,7 @@ const Footer = () => {
 									<div className="socials-links__link-el">
 										<a
 											className="socials-links__link"
-											href="https://www.instagram.com/juless.joy"
+											href="#"
 											rel="noopener"
 											target="_blank">
 											Instagram
@@ -26,7 +26,7 @@ const Footer = () => {
 									<div className="socials-links__link-el">
 										<a
 											className="socials-links__link"
-											href="https://t.me/juless_joy"
+											href="#"
 											rel="noopener"
 											target="_blank">
 											Telegram

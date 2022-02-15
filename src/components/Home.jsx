@@ -12,6 +12,9 @@ import codepen from "../imgs/home/codepen.svg";
 import awwwards from "../imgs/home/awwwards.png";
 
 const Home = () => {
+	const prev = () => {
+		console.log("hello")
+	}
 	return (
 		<section className="home" id="home">
 			{/* <!-- ===== 文本内容 ===== --> */}
@@ -50,7 +53,7 @@ const Home = () => {
 			<div className="img-toggle">
 				<div
 					className="swiper-button-prev swiper-button"
-					onClick="prev()"></div>
+					onClick={prev}></div>
 				<div
 					className="swiper-button-next swiper-button"
 					onClick="next()"></div>
