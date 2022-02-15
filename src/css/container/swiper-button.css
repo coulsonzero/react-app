@@ -22,7 +22,9 @@
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     transition: all 0.1s cubic-bezier(0.6, 0.04, 0.98, 0.335);
     margin: 0 1rem;
+    cursor: pointer;
 }
+
 .swiper-button-next::after,
 .swiper-button-prev::after {
     content: '';
@@ -48,6 +50,7 @@
 .swiper-button-next::before {
     transform: translateX(-50%) rotate(225deg);
 }
+
 /*
 .swiper-button-prev::before,
 .swiper-button-next::before {

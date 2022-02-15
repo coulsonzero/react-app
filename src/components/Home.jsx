@@ -7,14 +7,11 @@ import img4 from "../imgs/homeBg/4.jpg";
 import img5 from "../imgs/homeBg/5.jpg";
 import img6 from "../imgs/homeBg/6.jpg";
 import img7 from "../imgs/homeBg/7.jpg";
-import github   from "../imgs/home/github.svg";
-import codepen  from "../imgs/home/codepen.svg";
+import github from "../imgs/home/github.svg";
+import codepen from "../imgs/home/codepen.svg";
 import awwwards from "../imgs/home/awwwards.png";
 
 const Home = () => {
-	const prev = () => {
-		console.log("hello")
-	}
 	return (
 		<section className="home" id="home">
 			{/* <!-- ===== 文本内容 ===== --> */}
@@ -50,10 +47,10 @@ const Home = () => {
 			</div>
 
 			{/* <!-- ===== 背景图片切换按钮 ===== --> */}
-			<div className="img-toggle">
+			<div id="img-toggle">
 				<div
 					className="swiper-button-prev swiper-button"
-					onClick={prev}></div>
+					onClick="prev()"></div>
 				<div
 					className="swiper-button-next swiper-button"
 					onClick="next()"></div>
@@ -62,8 +59,11 @@ const Home = () => {
 			{/* <!-- ===== icons ====== --> */}
 			<ul className="social">
 				<li className="social-item">
-					<a href="https://github.com/coulsonzero/" target="_black" rel="noreferrer">
-						<img src={github} alt="github"/>
+					<a
+						href="https://github.com/coulsonzero/"
+						target="_black"
+						rel="noreferrer">
+						<img src={github} alt="github" />
 					</a>
 					<div className="box-tooltip" data-name="github">
 						<div className="tooltip-text" data-color="github">
@@ -72,7 +72,10 @@ const Home = () => {
 					</div>
 				</li>
 				<li className="social-item">
-					<a href="https://codepen.io/coulsonzero" target="_black" rel="noreferrer">
+					<a
+						href="https://codepen.io/coulsonzero"
+						target="_black"
+						rel="noreferrer">
 						<img src={codepen} alt="codepen" />
 					</a>
 					<div className="box-tooltip" data-name="codepen">
