@@ -124,6 +124,8 @@ export default App;
 ```
 
 
+
+
 ### `rafce`
 ```
 import React from 'react'
@@ -175,3 +177,47 @@ npm install boxicon --save
 
 ### 获取json报错
 > Uncaught SyntaxError: Unexpected token < in JSON at position 0
+
+### import 方式
+
+#### 1.import {...} from ...
+**App.js**
+```js
+import {Header} from './components/Header';
+```
+**components/Header.jsx**
+> rafc
+```jsx
+import React from 'react'
+
+const Header = () => {
+  return (
+    <div>Header</div>
+  )
+}
+
+export default Header
+```
+
+#### 2.import ... from ...
+> rafce
+**App.JS**
+```js
+import {Header} from './components/Header';
+```
+**Header.jsx**
+```jsx
+import React from 'react'
+
+const Header = () => {
+  return (
+    <div>Header</div>
+  )
+}
+
+export default Header
+```
+
+
+
+
