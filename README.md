@@ -200,12 +200,13 @@ export default Header
 ```
 
 #### 2.import ... from ...
-> rafce
+
 **App.JS**
 ```js
 import {Header} from './components/Header';
 ```
 **Header.jsx**
+> rafce
 ```jsx
 import React from 'react'
 
