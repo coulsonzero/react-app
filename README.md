@@ -37,9 +37,9 @@ open [http://localhost:3000](http://localhost:3000) in the browser.
 **package.json**
 ```json
 "homepage": "./",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 ```
 
 1. `npm run build`
